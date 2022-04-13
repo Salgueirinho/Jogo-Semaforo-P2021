@@ -1,0 +1,21 @@
+
+
+		Regras do Semáforo
+
+1.Colocar uma peça Verde numa célula vazia
+2.Trocar uma peça Verde que esteja colocadano tabuleiro por uma peça Amarela
+3.Trocar uma peça Amarela que esteja colocada no tabuleiro por uma peça Vermelha
+
+Existem duas jogadas adicionais que podem ser efetuadas pelos jogadores:
+
+4.Colocar uma pedra numa célula vazia. Cada jogador pode colocar, no máximo, uma pedra por jogo.
+A colocação de uma pedra inviabiliza que o jogo possa terminar por preenchimento da linha e coluna afetadas
+(e, eventualmente também da diagonal ou diagonais).
+
+5.Adicionar uma linha ou uma coluna ao final do tabuleiro. 
+Esta jogada adiciona linhas ou colunas completas e vazias ao tabuleiro de jogo. 
+Cada jogador pode efetuar esta jogada, no máximo, duas vezes por jogo.
+
+Em  cada  iteração,  um  jogador  escolhe  uma  destas  jogadas  para  atualizar  o  tabuleiro.  
+As jogadas 4 e 5 estão sujeitas às restrições indicadas na sua definição.
+O número de peças de cada cor é ilimitado.
